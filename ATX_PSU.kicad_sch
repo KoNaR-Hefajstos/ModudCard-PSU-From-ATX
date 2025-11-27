@@ -5,12 +5,13 @@
 	(uuid "090a8e41-87a8-4fb1-998b-60a2c0dc4cee")
 	(paper "A4")
 	(title_block
-		(title "ModuCard power supply unit")
+		(title "ModuCard ATX power supply adapter")
 		(date "2025-08-05")
 		(rev "0")
 		(company "KoNaR")
 		(comment 1 "Base project authors: Dominik Pluta, Artem Horiunov")
 		(comment 2 "Project author: Maciej Chodowiec")
+		(comment 3 "Fork author: Wojciech Szafrański")
 	)
 	(lib_symbols)
 	(bus_alias "CAN"
@@ -2158,7 +2159,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "6")
 				)
@@ -2240,7 +2241,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "12")
 				)
@@ -2282,7 +2283,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "3")
 				)
@@ -2343,7 +2344,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "5")
 				)
@@ -2405,7 +2406,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "14")
 				)
@@ -2467,7 +2468,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "8")
 				)
@@ -2619,7 +2620,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "4")
 				)
@@ -2691,7 +2692,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "9")
 				)
@@ -2783,7 +2784,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "11")
 				)
@@ -2845,7 +2846,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "13")
 				)
@@ -2897,7 +2898,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "10")
 				)
@@ -2969,7 +2970,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "7")
 				)
@@ -3061,7 +3062,7 @@
 			)
 		)
 		(instances
-			(project "PSU"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "2")
 				)
