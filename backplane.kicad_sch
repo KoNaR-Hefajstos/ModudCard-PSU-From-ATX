@@ -7593,8 +7593,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_STDBY"
-			(at 150.622 27.94 90)
+		(property "Value" "+5V"
+			(at 147.066 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8972,7 +8972,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_STDBY"
+		(property "Value" "+5V"
 			(at 269.24 92.71 0)
 			(effects
 				(font
@@ -9038,8 +9038,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_STDBY"
-			(at 62.738 27.94 90)
+		(property "Value" "+5V"
+			(at 66.04 28.448 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9772,8 +9772,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V_STDBY"
-			(at 64.008 111.76 90)
+		(property "Value" "+5V"
+			(at 67.056 111.76 90)
 			(effects
 				(font
 					(size 1.27 1.27)

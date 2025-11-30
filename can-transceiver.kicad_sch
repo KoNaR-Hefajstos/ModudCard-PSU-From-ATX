@@ -2049,7 +2049,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "8de1a2f1-ff57-4c0d-8b3d-103cef5d80ff")
+		(fields_autoplaced yes)
+		(uuid "8da46156-ce52-438c-b0e0-0a44d36740c9")
 		(property "Reference" "#PWR0500"
 			(at 138.43 93.98 0)
 			(effects
@@ -2059,8 +2060,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 138.43 86.36 0)
+		(property "Value" "+5V_SB"
+			(at 138.43 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2095,12 +2096,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "60aa93d8-63c6-49b8-ac88-a5c789bd6508")
+			(uuid "745ef4c3-0405-45dc-991b-612dbdc43445")
 		)
 		(instances
-			(project "base-module"
+			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/0158e235-e8c1-4e7e-a900-a22642d17049"
-					(reference "#PWR0600")
+					(reference "#PWR0538")
 					(unit 1)
 				)
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/3f4a4c31-63d6-4264-8452-81b45fffd897"

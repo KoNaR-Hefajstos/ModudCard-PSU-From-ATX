@@ -504,7 +504,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.12,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.12,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -522,7 +521,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -540,7 +538,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.18,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -558,7 +555,6 @@
         "bus_width": 12,
         "clearance": 0.15,
         "diff_pair_gap": 0.15,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.18,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -1170,6 +1166,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "doc/",
     "space_save_all_events": true,
@@ -1224,20 +1228,28 @@
       "QSPI FLASH"
     ],
     [
-      "d63d4183-4c75-40d5-a3f4-e42ea0a44126",
-      "Battery connector"
-    ],
-    [
-      "3af2ec2e-5b89-49fb-a51e-7adc4e12967a",
+      "8970b829-1030-494d-9608-da7eebff1417",
       "5V converter + sensor"
     ],
     [
-      "e257f758-a9bb-42f5-b60f-4f7ce9ad00fb",
+      "c92e3b66-2956-4b90-86d9-5eabacfe3a94",
       "12V conveter + sensor"
     ],
     [
-      "4495aa16-4e41-48e4-9134-49c1718fb572",
+      "58390374-5dd7-448a-892c-e8e45d6903cf",
       "??V converter + sensor"
+    ],
+    [
+      "f9a3c9ed-3fd3-45e8-8480-9062c23bddd4",
+      "Battery connector"
+    ],
+    [
+      "feb71d04-874a-40da-8b7d-09df3cb82fe7",
+      "ATX connector"
+    ],
+    [
+      "eabd1460-37fc-4011-96d2-589aebf98c67",
+      "Power_switch"
     ]
   ],
   "text_variables": {
