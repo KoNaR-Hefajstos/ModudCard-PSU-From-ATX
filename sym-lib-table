@@ -21,4 +21,6 @@
   (lib (name "SwitchMomentaryC&K")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/SwitchMomentaryC&K.kicad_sym")(options "")(descr ""))
   (lib (name "ADS1115")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/ADS1230.kicad_sym")(options "")(descr ""))
   (lib (name "PS-22F03")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-symbols/PS-22F03.kicad_sym")(options "")(descr ""))
+  (lib (name "39-28-1043")(type "KiCad")(uri "${KIPRJMOD}/lib/39-28-1043/KiCad/39-28-1043.kicad_sym")(options "")(descr ""))
+  (lib (name "2025-11-30_18-16-43")(type "KiCad")(uri "${KIPRJMOD}/lib/molex 4 pin/2025-11-30_18-16-43.kicad_sym")(options "")(descr ""))
 )

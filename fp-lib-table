@@ -18,4 +18,5 @@
   (lib (name "XT60-RightAngle")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/XT60-RightAngle.pretty")(options "")(descr ""))
   (lib (name "PS-22F03")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/PS-22F03.pretty")(options "")(descr ""))
   (lib (name "BUZ-BD12")(type "KiCad")(uri "${KIPRJMOD}/lib/kicad-footprints/BUZ-BD12.pretty")(options "")(descr ""))
+  (lib (name "footprints")(type "KiCad")(uri "${KIPRJMOD}/lib/molex 4 pin/footprints.pretty")(options "")(descr ""))
 )
