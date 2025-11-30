@@ -1228,22 +1228,6 @@
       "QSPI FLASH"
     ],
     [
-      "8970b829-1030-494d-9608-da7eebff1417",
-      "5V converter + sensor"
-    ],
-    [
-      "c92e3b66-2956-4b90-86d9-5eabacfe3a94",
-      "12V conveter + sensor"
-    ],
-    [
-      "58390374-5dd7-448a-892c-e8e45d6903cf",
-      "??V converter + sensor"
-    ],
-    [
-      "f9a3c9ed-3fd3-45e8-8480-9062c23bddd4",
-      "Battery connector"
-    ],
-    [
       "feb71d04-874a-40da-8b7d-09df3cb82fe7",
       "ATX connector"
     ],
