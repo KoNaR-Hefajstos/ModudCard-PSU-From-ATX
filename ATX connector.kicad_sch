@@ -1147,6 +1147,495 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "FuseCustom:JFC2410FS-2100FS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "F"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "10A"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" "FuseCustom:Fuse_2410_6125"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899540782604288"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "-55℃~+125℃ 10A 125V 125V 50A Surface Mount Fuse 2410 Disposable fuses ROHS"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer" "Shenzhen JDT Fuse"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Name" "JFC2410FS-2100FS"
+				(at 0 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Package" "2410"
+				(at 0.254 -4.572 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Current Trigger" "10A"
+				(at 3.81 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Voltage Rating" "125V"
+				(at 2.54 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Time Sensitivity" "Fast Acting"
+				(at 5.08 0 90)
+				(do_not_autoplace)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Assembly Type" "SMT Assembly"
+				(at -0.254 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C136374"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "JFC2410FS-2100FS_0_1"
+				(rectangle
+					(start -0.762 2.54)
+					(end 0.762 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "JFC2410FS-2100FS_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Jumper:SolderJumper_2_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "JP"
+				(at 0 2.032 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderJumper_2_Bridged"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "solder jumper SPST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SolderJumper*Bridged*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_0_1"
+				(rectangle
+					(start -0.508 0.508)
+					(end 0.508 -0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 1.016) (xy -0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.254 -1.016)
+					(mid -1.2656 0)
+					(end -0.254 1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.254 1.016)
+					(mid 1.2656 0)
+					(end 0.254 -1.016)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.016) (xy 0.254 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SolderJumper_2_Bridged_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "PCM_JLCPCB-Diodes:LED,0603,Green"
 			(pin_numbers
 				(hide yes)
@@ -1889,7 +2378,9 @@
 		)
 	)
 	(bus_alias "ATX"
-		(members "+5V" "+12V" "+5VSB" "+3.3V" "-12V" "-5V" "PS_ON#" "PWR_OK")
+		(members "+5V_ATX" "+12V_ATX" "+5VSB_ATX" "+3.3V_ATX" "-12V_ATX" "-5V_ATX"
+			"PS_ON#_ATX" "PWR_OK_ATX"
+		)
 	)
 	(rectangle
 		(start 175.26 20.32)
@@ -1917,7 +2408,7 @@
 	)
 	(rectangle
 		(start 175.26 87.63)
-		(end 232.41 129.54)
+		(end 285.75 129.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -1974,19 +2465,25 @@
 		(uuid "a0facd8a-d998-4c65-b8e1-ac21575a3279")
 	)
 	(junction
+		(at 257.81 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "107ac2c2-effa-4e82-90fc-1e3b3c2e892a")
+	)
+	(junction
 		(at 30.48 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b8839c1f-ad80-4e3f-a6c4-fd4db68d2c35")
 	)
 	(junction
-		(at 86.36 86.36)
+		(at 90.17 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cea600a4-2a31-4457-934e-3f9cc77aee06")
+		(uuid "b9ab145a-055d-467d-b419-d1ffa1ed9301")
 	)
 	(bus_entry
-		(at 86.36 50.8)
+		(at 90.17 50.8)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2013,7 +2510,7 @@
 		(uuid "1f6b4421-db5d-45d9-96f0-cc7aa0fbf038")
 	)
 	(bus_entry
-		(at 86.36 45.72)
+		(at 90.17 45.72)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2029,6 +2526,15 @@
 			(type default)
 		)
 		(uuid "2fe0c4e2-6092-4f90-b299-bb52650f1a1f")
+	)
+	(bus_entry
+		(at 220.98 109.22)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a2c63a6-10a7-4458-a30b-18a1749d45ac")
 	)
 	(bus_entry
 		(at 193.04 109.22)
@@ -2049,7 +2555,7 @@
 		(uuid "4a75df3e-52f6-4c8c-a45f-8ae65cca83ab")
 	)
 	(bus_entry
-		(at 86.36 55.88)
+		(at 90.17 55.88)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2094,7 +2600,7 @@
 		(uuid "bbcbc240-5d7d-4bc9-8004-4bcbddb8dbe2")
 	)
 	(bus_entry
-		(at 86.36 58.42)
+		(at 90.17 58.42)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2103,7 +2609,7 @@
 		(uuid "bf3c926e-9d84-4d4c-a454-f4dad67867a9")
 	)
 	(bus_entry
-		(at 86.36 66.04)
+		(at 90.17 66.04)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2112,7 +2618,7 @@
 		(uuid "cdabe5bc-4f11-4d81-b5c3-06f6e6deb865")
 	)
 	(bus_entry
-		(at 86.36 53.34)
+		(at 90.17 53.34)
 		(size -2.54 -2.54)
 		(stroke
 			(width 0)
@@ -2131,13 +2637,23 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 53.34) (xy 86.36 55.88)
+			(xy 90.17 53.34) (xy 90.17 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "00266a1c-59af-4739-9ab3-53584771edfa")
+	)
+	(wire
+		(pts
+			(xy 252.73 120.65) (xy 257.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "015707e7-02f0-4d7e-a849-860127a86503")
 	)
 	(wire
 		(pts
@@ -2161,7 +2677,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 63.5) (xy 83.82 63.5)
+			(xy 73.66 63.5) (xy 87.63 63.5)
 		)
 		(stroke
 			(width 0)
@@ -2181,7 +2697,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 43.18) (xy 83.82 43.18)
+			(xy 73.66 43.18) (xy 87.63 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2211,23 +2727,13 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 45.72) (xy 86.36 50.8)
+			(xy 90.17 45.72) (xy 90.17 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "170ef3b4-cd4d-4ea0-acd3-33ae7b1eafcb")
-	)
-	(bus
-		(pts
-			(xy 86.36 86.36) (xy 161.29 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b6c079c-e375-4cdd-9024-7a011361e5e3")
 	)
 	(wire
 		(pts
@@ -2248,6 +2754,26 @@
 			(type default)
 		)
 		(uuid "1db4013e-a211-4caf-8616-a8aac1767c96")
+	)
+	(bus
+		(pts
+			(xy 90.17 86.36) (xy 161.29 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f62463-df33-45a0-83d7-fe8ed1dbc0ec")
+	)
+	(wire
+		(pts
+			(xy 60.96 68.58) (xy 60.96 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2961db0c-5ba9-4439-995e-2be9136ac36d")
 	)
 	(wire
 		(pts
@@ -2281,7 +2807,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 66.04) (xy 86.36 86.36)
+			(xy 90.17 66.04) (xy 90.17 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2301,7 +2827,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 43.18) (xy 44.45 43.18)
+			(xy 33.02 43.18) (xy 48.26 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2341,13 +2867,23 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 68.58) (xy 57.15 72.39)
+			(xy 242.57 120.65) (xy 245.11 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ff70376-84e6-432f-9e60-945708482e33")
+		(uuid "62dd6190-239c-42b7-b2c8-2fbc9e5c3552")
+	)
+	(wire
+		(pts
+			(xy 223.52 111.76) (xy 223.52 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6879fe9c-005b-4fc8-aea7-dd696d0e76ca")
 	)
 	(wire
 		(pts
@@ -2381,7 +2917,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 58.42) (xy 86.36 66.04)
+			(xy 90.17 58.42) (xy 90.17 66.04)
 		)
 		(stroke
 			(width 0)
@@ -2401,7 +2937,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 55.88) (xy 83.82 55.88)
+			(xy 257.81 120.65) (xy 264.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8660745d-0632-4024-9e1d-96a16092caf3")
+	)
+	(wire
+		(pts
+			(xy 73.66 55.88) (xy 87.63 55.88)
 		)
 		(stroke
 			(width 0)
@@ -2411,7 +2957,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 114.3) (xy 204.47 114.3)
+			(xy 195.58 114.3) (xy 208.28 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2421,7 +2967,7 @@
 	)
 	(bus
 		(pts
-			(xy 193.04 109.22) (xy 204.47 109.22)
+			(xy 193.04 109.22) (xy 220.98 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2441,7 +2987,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 50.8) (xy 86.36 53.34)
+			(xy 90.17 50.8) (xy 90.17 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +3017,7 @@
 	)
 	(bus
 		(pts
-			(xy 30.48 86.36) (xy 86.36 86.36)
+			(xy 30.48 86.36) (xy 90.17 86.36)
 		)
 		(stroke
 			(width 0)
@@ -2521,7 +3067,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 53.34) (xy 83.82 53.34)
+			(xy 264.16 118.11) (xy 264.16 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96ab90e-77ed-47d3-b329-b63135cd8ea3")
+	)
+	(wire
+		(pts
+			(xy 73.66 53.34) (xy 87.63 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2531,7 +3087,17 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 48.26) (xy 83.82 48.26)
+			(xy 223.52 120.65) (xy 234.95 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d18be2f7-eadf-46b1-aa40-b66c401438d0")
+	)
+	(wire
+		(pts
+			(xy 73.66 48.26) (xy 87.63 48.26)
 		)
 		(stroke
 			(width 0)
@@ -2541,7 +3107,7 @@
 	)
 	(bus
 		(pts
-			(xy 86.36 55.88) (xy 86.36 58.42)
+			(xy 90.17 55.88) (xy 90.17 58.42)
 		)
 		(stroke
 			(width 0)
@@ -2581,13 +3147,23 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 50.8) (xy 83.82 50.8)
+			(xy 73.66 50.8) (xy 87.63 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "ea301ea6-2f6e-4b2d-807e-c7753d684343")
+	)
+	(wire
+		(pts
+			(xy 257.81 119.38) (xy 257.81 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edef1378-de7e-440b-97e6-736085906ef4")
 	)
 	(bus
 		(pts
@@ -2598,6 +3174,16 @@
 			(type default)
 		)
 		(uuid "f0a2b476-0d50-4f99-a3e8-8e35e34b4575")
+	)
+	(bus
+		(pts
+			(xy 220.98 109.22) (xy 273.05 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10f512d-c1e9-4dc6-bb36-b577918fcec1")
 	)
 	(wire
 		(pts
@@ -2639,7 +3225,7 @@
 		)
 		(uuid "fc029d05-1110-4be3-8fb1-6f93cf00cf6f")
 	)
-	(label "+3.3V"
+	(label "+3.3V_ATX"
 		(at 196.85 49.53 0)
 		(effects
 			(font
@@ -2659,8 +3245,8 @@
 		)
 		(uuid "1e0d7421-3258-4812-92d8-a60ed024e238")
 	)
-	(label "+5V"
-		(at 74.93 50.8 0)
+	(label "+5V_ATX"
+		(at 78.74 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2669,7 +3255,7 @@
 		)
 		(uuid "22008c6e-5132-4ebb-a324-331aa7fe2c65")
 	)
-	(label "+12V"
+	(label "+12V_ATX"
 		(at 238.76 49.53 0)
 		(effects
 			(font
@@ -2679,8 +3265,8 @@
 		)
 		(uuid "25f8d726-eefe-4e99-9ad7-94a73f7370f8")
 	)
-	(label "+12V"
-		(at 74.93 48.26 0)
+	(label "+12V_ATX"
+		(at 78.74 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2689,8 +3275,8 @@
 		)
 		(uuid "2f7da3ef-8ed8-4f7a-9ef0-2af864588e88")
 	)
-	(label "+5VSB"
-		(at 74.93 53.34 0)
+	(label "+5VSB_ATX"
+		(at 78.74 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2699,7 +3285,7 @@
 		)
 		(uuid "3a69815d-7a19-46e4-8a5f-e038da4c3ec3")
 	)
-	(label "+12V"
+	(label "+12V_ATX"
 		(at 35.56 101.6 0)
 		(effects
 			(font
@@ -2719,8 +3305,8 @@
 		)
 		(uuid "5a82a8f1-9eda-43be-8a67-59b245efcbac")
 	)
-	(label "-12V"
-		(at 74.93 63.5 0)
+	(label "-12V_ATX"
+		(at 78.74 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2729,7 +3315,7 @@
 		)
 		(uuid "7b669605-4042-4705-98df-5c263dbbde0c")
 	)
-	(label "+5VSB"
+	(label "+5VSB_ATX"
 		(at 224.79 49.53 0)
 		(effects
 			(font
@@ -2739,7 +3325,7 @@
 		)
 		(uuid "7f26ea96-ce6a-4e6e-a24b-ba0548701c49")
 	)
-	(label "+5V"
+	(label "+5V_ATX"
 		(at 210.82 49.53 0)
 		(effects
 			(font
@@ -2749,7 +3335,7 @@
 		)
 		(uuid "8cb332b2-0b8f-40df-8e6f-6679666c3b95")
 	)
-	(label "+12V"
+	(label "+12V_ATX"
 		(at 35.56 104.14 0)
 		(effects
 			(font
@@ -2759,7 +3345,7 @@
 		)
 		(uuid "a48a821f-10a2-44a8-a03c-217822acc9f7")
 	)
-	(label "+5VSB"
+	(label "+5VSB_ATX"
 		(at 195.58 114.3 0)
 		(effects
 			(font
@@ -2769,8 +3355,8 @@
 		)
 		(uuid "aeb60851-0e1d-4171-850b-293c306d5b82")
 	)
-	(label "PWR_OK"
-		(at 195.58 119.38 0)
+	(label "PWR_OK_ATX"
+		(at 191.77 119.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2779,8 +3365,8 @@
 		)
 		(uuid "b1b70c81-379c-45c1-a993-d7a9bb3a4e2b")
 	)
-	(label "PWR_OK"
-		(at 74.93 43.18 0)
+	(label "PWR_OK_ATX"
+		(at 78.74 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2789,7 +3375,7 @@
 		)
 		(uuid "b8c3cfc6-e0e2-4e96-b7ce-8c1517748bad")
 	)
-	(label "-12V"
+	(label "-12V_ATX"
 		(at 251.46 49.53 0)
 		(effects
 			(font
@@ -2809,8 +3395,8 @@
 		)
 		(uuid "c5a49c0c-cda9-47e5-b83d-3bf59720f690")
 	)
-	(label "+3.3V"
-		(at 74.93 55.88 0)
+	(label "+3.3V_ATX"
+		(at 78.74 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2819,7 +3405,7 @@
 		)
 		(uuid "c93df93b-d6b0-4ff8-a6d2-25395001b5fb")
 	)
-	(label "PS_ON#"
+	(label "PS_ON#_ATX"
 		(at 33.02 43.18 0)
 		(effects
 			(font
@@ -2828,6 +3414,16 @@
 			(justify left bottom)
 		)
 		(uuid "d134c929-025a-4056-9989-276e3fa3cf2a")
+	)
+	(label "+3.3V_ATX"
+		(at 224.79 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc6f6938-9926-477e-8316-790c36115283")
 	)
 	(hierarchical_label "PWR_OK"
 		(shape output)
@@ -2842,7 +3438,7 @@
 	)
 	(hierarchical_label "ATX"
 		(shape output)
-		(at 204.47 109.22 0)
+		(at 273.05 109.22 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3206,6 +3802,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 257.81 119.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b222c38-2364-4541-9c0e-d32e3c14240d")
+		(property "Reference" "TP400"
+			(at 257.81 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 260.35 117.348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
+			(at 262.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 262.89 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 257.81 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8600529f-e70e-46f4-830e-8c6b35924be1")
+		)
+		(instances
+			(project "ATX_PSU"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7"
+					(reference "TP400")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 50.8 99.06 270)
 		(unit 1)
@@ -3274,7 +3936,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 204.47 114.3 270)
+		(at 208.28 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3283,7 +3945,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f15806a-3abb-4ffe-819f-5ea70312c04b")
 		(property "Reference" "#PWR0526"
-			(at 200.66 114.3 0)
+			(at 204.47 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3292,7 +3954,7 @@
 			)
 		)
 		(property "Value" "+5V_SB"
-			(at 208.28 114.2999 90)
+			(at 212.09 114.2999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3301,7 +3963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 114.3 0)
+			(at 208.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3310,7 +3972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 114.3 0)
+			(at 208.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3319,7 +3981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 204.47 114.3 0)
+			(at 208.28 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,6 +3996,146 @@
 			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7"
 					(reference "#PWR0526")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "FuseCustom:JFC2410FS-2100FS")
+		(at 248.92 120.65 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4281025f-c824-41f4-b04a-8bd0988dec23")
+		(property "Reference" "F402"
+			(at 248.92 116.84 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10A"
+			(at 243.84 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "FuseCustom:Fuse_2410_6125"
+			(at 244.348 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899540782604288"
+			(at 244.094 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "-55℃~+125℃ 10A 125V 125V 50A Surface Mount Fuse 2410 Disposable fuses ROHS"
+			(at 244.094 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Shenzhen JDT Fuse"
+			(at 244.348 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Name" "JFC2410FS-2100FS"
+			(at 244.348 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "2410"
+			(at 244.348 120.904 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current Trigger" "10A"
+			(at 248.92 124.46 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Voltage Rating" "125V"
+			(at 248.92 123.19 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Time Sensitivity" "Fast Acting"
+			(at 248.92 125.73 90)
+			(do_not_autoplace yes)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Assembly Type" "SMT Assembly"
+			(at 244.094 120.396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C136374"
+			(at 244.348 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "063a267d-7eae-4b2b-9dc1-4caac19a3303")
+		)
+		(pin "1"
+			(uuid "3736a83a-6cb1-42fc-96df-292fb1a38b4c")
+		)
+		(instances
+			(project "ATX_PSU"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7"
+					(reference "F402")
 					(unit 1)
 				)
 			)
@@ -3856,7 +4658,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 72.39 0)
+		(at 60.96 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3865,7 +4667,7 @@
 		(fields_autoplaced yes)
 		(uuid "5bd4988e-0dac-45c4-b270-36a939242182")
 		(property "Reference" "#PWR0405"
-			(at 57.15 78.74 0)
+			(at 60.96 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3874,7 +4676,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 77.47 0)
+			(at 60.96 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3882,7 +4684,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 72.39 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3891,7 +4693,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 72.39 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3900,7 +4702,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 72.39 0)
+			(at 60.96 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3915,6 +4717,74 @@
 			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7"
 					(reference "#PWR0405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:SolderJumper_2_Bridged")
+		(at 238.76 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "70fb442d-77ff-4a79-9815-966c75f62dd9")
+		(property "Reference" "JP402"
+			(at 238.76 117.602 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Test Buck Vout"
+			(at 238.76 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_TrianglePad1.0x1.5mm"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Solder Jumper, 2-pole, closed/bridged"
+			(at 238.76 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71f21faa-a2c6-404c-8b3e-7d6dca71df83")
+		)
+		(pin "1"
+			(uuid "9e5a52bf-a1cb-4da0-89a2-5f6614e6d746")
+		)
+		(instances
+			(project "ATX_PSU"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7"
+					(reference "JP402")
 					(unit 1)
 				)
 			)
@@ -4440,6 +5310,71 @@
 			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7"
 					(reference "#PWR0407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 264.16 118.11 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a866841e-09c4-46ad-a342-73d90013ddc5")
+		(property "Reference" "#PWR0411"
+			(at 264.16 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 264.16 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 264.16 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5a57ccdb-8c67-45fe-b799-32baf485a1d6")
+		)
+		(instances
+			(project "ATX_PSU"
+				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7"
+					(reference "#PWR0411")
 					(unit 1)
 				)
 			)
@@ -5212,7 +6147,7 @@
 	)
 	(symbol
 		(lib_id "Connector:ATX-24")
-		(at 57.15 53.34 0)
+		(at 60.96 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5221,7 +6156,7 @@
 		(fields_autoplaced yes)
 		(uuid "cf1025f3-1164-4f1c-b220-e9196c11e26c")
 		(property "Reference" "J402"
-			(at 57.15 35.56 0)
+			(at 60.96 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5229,7 +6164,7 @@
 			)
 		)
 		(property "Value" "ATX-24"
-			(at 57.15 38.1 0)
+			(at 60.96 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +6172,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-24A2_2x12_P4.20mm_Horizontal"
-			(at 57.15 55.88 0)
+			(at 60.96 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +6181,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.intel.com/content/dam/www/public/us/en/documents/guides/power-supply-design-guide-june.pdf#page=33"
-			(at 118.11 67.31 0)
+			(at 121.92 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +6190,7 @@
 			)
 		)
 		(property "Description" "ATX Power supply 24pins"
-			(at 57.15 53.34 0)
+			(at 60.96 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)

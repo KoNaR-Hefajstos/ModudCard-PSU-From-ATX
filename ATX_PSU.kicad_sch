@@ -17,7 +17,7 @@
 	(bus_alias "CAN"
 		(members "+" "-")
 	)
-	(text "TO DO\nCalculate LED resistor\nWhy max current for current sense\nI2C addreses\n24V Converter"
+	(text "TO DO\nCalculate LED resistor\nWhy max current for current sense\n24V Converter"
 		(exclude_from_sim no)
 		(at 59.436 179.578 0)
 		(effects
@@ -432,48 +432,6 @@
 			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
 					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 133.35 130.81)
-		(size 25.4 6.35)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "3f372eb1-53a4-4b00-8846-6751dd401eeb")
-		(property "Sheetname" "Power"
-			(at 133.35 130.0984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 133.35 137.7446 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "ATX_PSU"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee"
-					(page "3")
 				)
 			)
 		)
