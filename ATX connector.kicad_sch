@@ -2465,7 +2465,7 @@
 		(uuid "a0facd8a-d998-4c65-b8e1-ac21575a3279")
 	)
 	(junction
-		(at 257.81 120.65)
+		(at 269.24 120.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "107ac2c2-effa-4e82-90fc-1e3b3c2e892a")
@@ -2647,7 +2647,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 120.65) (xy 257.81 120.65)
+			(xy 264.16 120.65) (xy 269.24 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2827,16 +2827,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 43.18) (xy 48.26 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c7895b7-81be-46d3-bd39-c96bcc84fe91")
-	)
-	(wire
-		(pts
 			(xy 54.61 99.06) (xy 50.8 99.06)
 		)
 		(stroke
@@ -2867,7 +2857,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 120.65) (xy 245.11 120.65)
+			(xy 242.57 120.65) (xy 256.54 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2937,7 +2927,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 120.65) (xy 264.16 120.65)
+			(xy 269.24 120.65) (xy 275.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3067,7 +3057,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 118.11) (xy 264.16 120.65)
+			(xy 275.59 118.11) (xy 275.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3157,7 +3147,7 @@
 	)
 	(wire
 		(pts
-			(xy 257.81 119.38) (xy 257.81 120.65)
+			(xy 269.24 119.38) (xy 269.24 120.65)
 		)
 		(stroke
 			(width 0)
@@ -3184,6 +3174,16 @@
 			(type default)
 		)
 		(uuid "f10f512d-c1e9-4dc6-bb36-b577918fcec1")
+	)
+	(wire
+		(pts
+			(xy 33.02 43.18) (xy 48.26 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f25aa9d8-c8d6-4e46-9c4d-14a5ba9833a0")
 	)
 	(wire
 		(pts
@@ -3235,16 +3235,6 @@
 		)
 		(uuid "052ab1cb-8bcf-4e14-9c99-e5bc48580ea3")
 	)
-	(label "{ATX}"
-		(at 181.61 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1e0d7421-3258-4812-92d8-a60ed024e238")
-	)
 	(label "+5V_ATX"
 		(at 78.74 50.8 0)
 		(effects
@@ -3276,7 +3266,7 @@
 		(uuid "2f7da3ef-8ed8-4f7a-9ef0-2af864588e88")
 	)
 	(label "+5VSB_ATX"
-		(at 78.74 53.34 0)
+		(at 77.47 53.34 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3334,6 +3324,16 @@
 			(justify left bottom)
 		)
 		(uuid "8cb332b2-0b8f-40df-8e6f-6679666c3b95")
+	)
+	(label "{ATX}"
+		(at 181.61 109.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9e432559-930c-4244-a240-409f1d6fd5f0")
 	)
 	(label "+12V_ATX"
 		(at 35.56 104.14 0)
@@ -3406,7 +3406,7 @@
 		(uuid "c93df93b-d6b0-4ff8-a6d2-25395001b5fb")
 	)
 	(label "PS_ON#_ATX"
-		(at 33.02 43.18 0)
+		(at 34.29 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3414,6 +3414,16 @@
 			(justify left bottom)
 		)
 		(uuid "d134c929-025a-4056-9989-276e3fa3cf2a")
+	)
+	(label "3V3_BF"
+		(at 246.38 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d459d8ae-8e7a-43da-920c-04696de49c50")
 	)
 	(label "+3.3V_ATX"
 		(at 224.79 120.65 0)
@@ -3425,7 +3435,7 @@
 		)
 		(uuid "dc6f6938-9926-477e-8316-790c36115283")
 	)
-	(hierarchical_label "PWR_OK"
+	(hierarchical_label "PWR_OK_ATX"
 		(shape output)
 		(at 204.47 119.38 0)
 		(effects
@@ -3436,7 +3446,7 @@
 		)
 		(uuid "672a23c5-a195-4de6-aa9f-11541e8d8f12")
 	)
-	(hierarchical_label "ATX"
+	(hierarchical_label "ATX{ATX}"
 		(shape output)
 		(at 273.05 109.22 0)
 		(effects
@@ -3803,7 +3813,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 257.81 119.38 0)
+		(at 269.24 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -3811,7 +3821,7 @@
 		(dnp no)
 		(uuid "1b222c38-2364-4541-9c0e-d32e3c14240d")
 		(property "Reference" "TP400"
-			(at 257.81 114.3 0)
+			(at 269.24 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3819,7 +3829,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 260.35 117.348 0)
+			(at 271.78 117.348 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3829,7 +3839,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 262.89 119.38 0)
+			(at 274.32 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3838,7 +3848,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 262.89 119.38 0)
+			(at 274.32 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3847,7 +3857,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 257.81 119.38 0)
+			(at 269.24 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4003,7 +4013,7 @@
 	)
 	(symbol
 		(lib_id "FuseCustom:JFC2410FS-2100FS")
-		(at 248.92 120.65 270)
+		(at 260.35 120.65 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4011,7 +4021,7 @@
 		(dnp no)
 		(uuid "4281025f-c824-41f4-b04a-8bd0988dec23")
 		(property "Reference" "F402"
-			(at 248.92 116.84 90)
+			(at 260.35 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4019,7 +4029,7 @@
 			)
 		)
 		(property "Value" "10A"
-			(at 243.84 120.65 0)
+			(at 255.27 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4038,7 @@
 			)
 		)
 		(property "Footprint" "FuseCustom:Fuse_2410_6125"
-			(at 244.348 120.65 0)
+			(at 255.778 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4037,7 +4047,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/api/file/downloadByFileSystemAccessId/8588899540782604288"
-			(at 244.094 120.65 0)
+			(at 255.524 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4046,7 +4056,7 @@
 			)
 		)
 		(property "Description" "-55℃~+125℃ 10A 125V 125V 50A Surface Mount Fuse 2410 Disposable fuses ROHS"
-			(at 244.094 120.65 0)
+			(at 255.524 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4055,7 +4065,7 @@
 			)
 		)
 		(property "Manufacturer" "Shenzhen JDT Fuse"
-			(at 244.348 120.65 0)
+			(at 255.778 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4064,7 +4074,7 @@
 			)
 		)
 		(property "Name" "JFC2410FS-2100FS"
-			(at 244.348 120.65 0)
+			(at 255.778 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4073,7 +4083,7 @@
 			)
 		)
 		(property "Package" "2410"
-			(at 244.348 120.904 0)
+			(at 255.778 120.904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4082,7 +4092,7 @@
 			)
 		)
 		(property "Current Trigger" "10A"
-			(at 248.92 124.46 90)
+			(at 260.35 124.46 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4091,7 +4101,7 @@
 			)
 		)
 		(property "Voltage Rating" "125V"
-			(at 248.92 123.19 90)
+			(at 260.35 123.19 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4100,7 +4110,7 @@
 			)
 		)
 		(property "Time Sensitivity" "Fast Acting"
-			(at 248.92 125.73 90)
+			(at 260.35 125.73 90)
 			(do_not_autoplace yes)
 			(effects
 				(font
@@ -4109,7 +4119,7 @@
 			)
 		)
 		(property "Assembly Type" "SMT Assembly"
-			(at 244.094 120.396 0)
+			(at 255.524 120.396 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4118,7 +4128,7 @@
 			)
 		)
 		(property "LCSC" "C136374"
-			(at 244.348 120.65 0)
+			(at 255.778 120.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +5327,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 264.16 118.11 0)
+		(at 275.59 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5325,7 +5335,7 @@
 		(dnp no)
 		(uuid "a866841e-09c4-46ad-a342-73d90013ddc5")
 		(property "Reference" "#PWR0411"
-			(at 264.16 121.92 0)
+			(at 275.59 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5334,7 +5344,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 264.16 114.3 0)
+			(at 275.59 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +5352,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 118.11 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5351,7 +5361,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 264.16 118.11 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5360,7 +5370,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 264.16 118.11 0)
+			(at 275.59 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6171,7 +6181,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5569-24A2_2x12_P4.20mm_Horizontal"
+		(property "Footprint" "Connector_Molex:Molex_Mini-Fit_Jr_5566-24A2_2x12_P4.20mm_Vertical"
 			(at 60.96 55.88 0)
 			(effects
 				(font

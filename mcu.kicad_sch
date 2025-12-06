@@ -8392,6 +8392,10 @@
 		(uuid "fcce9395-c26f-49cc-82ff-a3ecceee5c10")
 	)
 	(no_connect
+		(at 218.44 177.8)
+		(uuid "00bfdeb4-fe3d-4c1e-ac40-16d35dae161e")
+	)
+	(no_connect
 		(at 218.44 101.6)
 		(uuid "00eee703-efe4-4a71-ac13-28739bcb8983")
 	)
@@ -9416,16 +9420,6 @@
 			(type default)
 		)
 		(uuid "3f49e656-6415-4f24-8fc4-98e2c5268827")
-	)
-	(wire
-		(pts
-			(xy 218.44 177.8) (xy 222.25 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "409d9469-47df-4bda-9187-f5782466d5dd")
 	)
 	(wire
 		(pts
@@ -11597,16 +11591,6 @@
 		)
 		(uuid "4eca633b-6272-4b34-8df2-56fe3f83d7d4")
 	)
-	(label "Power_Button_IN"
-		(at 222.25 177.8 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4fe83b3b-06d7-427e-bc4f-7b9a9b7ae10e")
-	)
 	(label "ON-OFF1"
 		(at 231.14 190.5 180)
 		(effects
@@ -11867,7 +11851,7 @@
 		)
 		(uuid "b20f2727-2999-49aa-8ec2-3ba41e606162")
 	)
-	(label "I2C.SDA"
+	(label "I2C1.SDA"
 		(at 93.98 264.16 90)
 		(effects
 			(font
@@ -11947,7 +11931,7 @@
 		)
 		(uuid "cfabbc0d-a6cf-4548-bcea-e8b183bdbf18")
 	)
-	(label "I2C.SCL"
+	(label "I2C1.SCL"
 		(at 91.44 264.16 90)
 		(effects
 			(font

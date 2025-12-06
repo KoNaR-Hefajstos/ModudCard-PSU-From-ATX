@@ -5032,12 +5032,6 @@
 		(uuid "a69b4b5a-70cc-4d97-ad0e-09264e763858")
 	)
 	(junction
-		(at 153.67 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a71967df-fb86-4462-882c-3e3bbae3bbc5")
-	)
-	(junction
 		(at 220.98 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5054,12 +5048,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b4a94ed4-6f93-4765-bc0f-061ddb9e86b3")
-	)
-	(junction
-		(at 153.67 24.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b8ef99cb-8c25-4438-9279-bd0100068403")
 	)
 	(junction
 		(at 116.84 78.74)
@@ -5426,16 +5414,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 22.86) (xy 153.67 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2196577a-f56b-4c94-9589-6a1c74448f7b")
-	)
-	(wire
-		(pts
 			(xy 53.34 148.59) (xy 54.61 148.59)
 		)
 		(stroke
@@ -5483,16 +5461,6 @@
 			(type default)
 		)
 		(uuid "2bc68437-c1c9-4f30-ad6f-10ce3e815375")
-	)
-	(wire
-		(pts
-			(xy 147.32 24.13) (xy 153.67 24.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2df7dda2-c349-4961-8c0d-68faabd2639e")
 	)
 	(wire
 		(pts
@@ -6486,17 +6454,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 77.47) (xy 153.67 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a58e265f-f694-4145-bfcb-e1ffec338b88")
-	)
-	(wire
-		(pts
-			(xy 153.67 78.74) (xy 161.29 78.74)
+			(xy 148.59 78.74) (xy 161.29 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6654,19 +6612,9 @@
 		)
 		(uuid "c12b2d79-7395-4e4f-964a-8e8ea03d5b3c")
 	)
-	(wire
-		(pts
-			(xy 148.59 78.74) (xy 153.67 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c307f226-d871-42b4-b70a-ed13b8a9cd37")
-	)
 	(bus
 		(pts
-			(xy 185.42 152.4) (xy 200.66 152.4)
+			(xy 189.23 152.4) (xy 204.47 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6816,7 +6764,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 24.13) (xy 161.29 24.13)
+			(xy 147.32 24.13) (xy 161.29 24.13)
 		)
 		(stroke
 			(width 0)
@@ -7445,7 +7393,7 @@
 		(uuid "ed431935-6284-402e-b913-27da33d36be1")
 	)
 	(label "{ATX}"
-		(at 191.77 152.4 0)
+		(at 195.58 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7485,9 +7433,9 @@
 		)
 		(uuid "0e9534e6-ff4a-414c-90b5-5af4b9e0592b")
 	)
-	(hierarchical_label "ATX"
+	(hierarchical_label "ATX{ATX}"
 		(shape input)
-		(at 185.42 152.4 180)
+		(at 189.23 152.4 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9141,72 +9089,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 153.67 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2f837615-bb07-4018-9660-1f028d62347d")
-		(property "Reference" "#FLG0407"
-			(at 153.67 75.565 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 153.67 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 153.67 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c2b2ca6-e5ae-4a56-85e6-779409eb5b43")
-		)
-		(instances
-			(project "ATX_PSU"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67"
-					(reference "#FLG0407")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 137.16 168.91 0)
 		(unit 1)
@@ -9882,6 +9764,7 @@
 	(symbol
 		(lib_id "MCAC80P06YHE3:MCAC80P06YHE3")
 		(at 137.16 78.74 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9889,7 +9772,7 @@
 		(dnp no)
 		(uuid "3d2b0bb7-47ae-4908-b9d3-233bfdcfb2ce")
 		(property "Reference" "Q417"
-			(at 130.048 81.534 0)
+			(at 144.272 81.534 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9897,7 +9780,7 @@
 			)
 		)
 		(property "Value" "HSBA8119"
-			(at 130.048 84.074 0)
+			(at 144.272 84.074 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9905,7 +9788,7 @@
 			)
 		)
 		(property "Footprint" "DFN5060-8L:DFN5060-8L"
-			(at 144.78 85.852 0)
+			(at 129.54 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9914,7 +9797,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/product-detail/C22359243.html"
-			(at 144.78 85.852 0)
+			(at 129.54 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9923,7 +9806,7 @@
 			)
 		)
 		(property "Description" "80V 70A 145W 15mΩ@10V 2.5V@250uA 1 P-Channel PRPAK5x6-8L MOSFETs ROHS"
-			(at 144.78 85.852 0)
+			(at 129.54 85.852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14526,72 +14409,6 @@
 			(project "ATX_PSU"
 				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67"
 					(reference "#PWR0499")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 153.67 22.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e40f1f39-8039-4f1d-80b2-568d1e1d9239")
-		(property "Reference" "#FLG0400"
-			(at 153.67 20.955 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 153.67 17.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 153.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 153.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 153.67 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a3c4d616-dd87-4326-aa12-5e63c1e03588")
-		)
-		(instances
-			(project "ATX_PSU"
-				(path "/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67"
-					(reference "#FLG0400")
 					(unit 1)
 				)
 			)

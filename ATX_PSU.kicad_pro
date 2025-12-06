@@ -252,7 +252,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_driven|2032000|1155700|e62ed342-1438-465b-afae-d326c34d062b|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|",
+        "It isn't an input pin, used to short PS_ON#ATX to GND"
+      ],
+      [
+        "pin_to_pin|2298700|952500|096a1b71-643d-4915-abc7-88e600b2a9ce|e14ff9d2-80e0-421d-850c-84af2ea70c48|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b",
+        "Somebody else made it, hope it's good"
+      ],
+      [
+        "pin_to_pin|2298700|952500|096a1b71-643d-4915-abc7-88e600b2a9ce|ffe39f57-b1ff-4c67-a0cf-6e7a0062d025|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ed5910e5-42de-4923-b023-9e23a66937d0|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b",
+        "Somebody else made it, hope it's good"
+      ],
+      [
+        "pin_to_pin|2311400|1003300|e39de7e6-ca81-4af4-b6c9-ae6450b050b8|52b44020-270c-47a8-b4e6-410e7672b39a|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7",
+        "Used to short GND to PS_ON#ATX"
+      ],
+      [
+        "power_pin_not_driven|952500|1384300|d996c648-8441-4efe-9a47-f79077735263|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|",
+        "Vout+ is power output"
+      ]
+    ],
     "meta": {
       "version": 0
     },
