@@ -17,7 +17,7 @@
 	(bus_alias "CAN"
 		(members "+" "-")
 	)
-	(text "TO DO\nCalculate LED resistor\nWhy max current for current sense\n24V Converter\nadd temp sensing"
+	(text "TO DO\nCalculate LED resistor\n"
 		(exclude_from_sim no)
 		(at 59.436 179.578 0)
 		(effects
