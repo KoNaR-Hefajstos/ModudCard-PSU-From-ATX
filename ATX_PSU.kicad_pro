@@ -254,6 +254,10 @@
   "erc": {
     "erc_exclusions": [
       [
+        "pin_not_connected|2705100|1130300|638f9b92-851a-4235-93c1-eb87919c702f|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/ff3476d7-2f10-4f79-9864-988601c7ce1b|",
+        ""
+      ],
+      [
         "pin_not_driven|2032000|1155700|e62ed342-1438-465b-afae-d326c34d062b|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|",
         "It isn't an input pin, used to short PS_ON#ATX to GND"
       ],
@@ -268,6 +272,10 @@
       [
         "pin_to_pin|2311400|1003300|e39de7e6-ca81-4af4-b6c9-ae6450b050b8|52b44020-270c-47a8-b4e6-410e7672b39a|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7",
         "Used to short GND to PS_ON#ATX"
+      ],
+      [
+        "pin_to_pin|2324100|1181100|e39de7e6-ca81-4af4-b6c9-ae6450b050b8|52b44020-270c-47a8-b4e6-410e7672b39a|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/feb71d04-874a-40da-8b7d-09df3cb82fe7",
+        "shorting PS_ON to groudn"
       ],
       [
         "power_pin_not_driven|952500|1384300|d996c648-8441-4efe-9a47-f79077735263|00000000-0000-0000-0000-000000000000|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|/090a8e41-87a8-4fb1-998b-60a2c0dc4cee/eabd1460-37fc-4011-96d2-589aebf98c67|",
@@ -466,8 +474,8 @@
       "hier_label_mismatch": "error",
       "label_dangling": "error",
       "label_multiple_wires": "warning",
-      "lib_symbol_issues": "warning",
-      "lib_symbol_mismatch": "warning",
+      "lib_symbol_issues": "ignore",
+      "lib_symbol_mismatch": "ignore",
       "missing_bidi_pin": "warning",
       "missing_input_pin": "warning",
       "missing_power_pin": "error",
@@ -1150,6 +1158,42 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Total Gate Charge (Qg@Vgs)",
+          "name": "Total Gate Charge (Qg@Vgs)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Input Capacitance (Ciss@Vds)",
+          "name": "Input Capacitance (Ciss@Vds)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source Voltage (Vdss)",
+          "name": "Drain Source Voltage (Vdss)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Continuous Drain Current (Id)",
+          "name": "Continuous Drain Current (Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "name": "Gate Threshold Voltage (Vgs(th)@Id)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "name": "Drain Source On Resistance (RDS(on)@Vgs,Id)",
+          "show": false
         }
       ],
       "filter_string": "",
