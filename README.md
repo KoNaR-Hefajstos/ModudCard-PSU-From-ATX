@@ -2,7 +2,7 @@
 
 
 ## Power section
-- **Input voltage:** 12V from the backplane.
+- **Output voltage:** 12V @ XA.
 - **Output voltage:** 3.3V @ XA.
 - **Output voltage:** 5V @ XA.
 - **Output voltage:** 12V @ XA.
