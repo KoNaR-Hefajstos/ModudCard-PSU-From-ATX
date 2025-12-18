@@ -17,16 +17,6 @@
 	(bus_alias "CAN"
 		(members "+" "-")
 	)
-	(text "TO DO\nCalculate LED resistor\n"
-		(exclude_from_sim no)
-		(at 59.436 179.578 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "136ea856-d0a3-4aa6-ab93-c57bd6a9f8ad")
-	)
 	(no_connect
 		(at 133.35 66.04)
 		(uuid "225d1b4d-20a1-48d7-98fe-8709d91fa2b8")

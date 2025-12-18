@@ -3475,7 +3475,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "2.2k"
 			(at 251.46 62.23 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4169,7 +4169,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "560"
 			(at 210.82 62.23 90)
 			(do_not_autoplace yes)
 			(effects
@@ -4895,7 +4895,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "560"
 			(at 224.79 62.23 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5568,7 +5568,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "220"
 			(at 196.85 62.23 90)
 			(do_not_autoplace yes)
 			(effects
@@ -5790,7 +5790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10kΩ"
+		(property "Value" "2.2k"
 			(at 238.76 62.23 90)
 			(do_not_autoplace yes)
 			(effects
